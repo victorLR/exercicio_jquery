@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(4, 0, 255, 0.616);
+    padding-top: 100px;
+}
+
+    .container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #fff;
+    margin-left: -11px;
+    padding: 8px;
+    font-size: 47px;
+}
+
+form input {
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    padding: 8px;
+}
+
+form button {
+    background-color: #2705838a;
+    color: #fff;
+    font-size:  21px;
+    font-weight: bold;
+    border:  none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form ul {
+    list-style: none; /* Remove os marcadores da lista padrão */
+    color: #fff;
+    cursor: pointer;
+}
+
+form ul li {
+    margin-left: -9px;
+    padding: 8px;
+    font-size: 22px;   /* Aumenta o tamanho da fonte */
+}
+
+form ul li.destacado {
+    text-decoration: line-through; 
+    color: rgb(0, 255, 42);
+}
